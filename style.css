@@ -1,0 +1,249 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: inherit;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  padding: 60px 40px;
+}
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+.header-div {
+  display: flex;
+  align-items: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  gap: 25px;
+  color: rgba(115, 115, 115, 1);
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.first-section {
+  padding: 30px 40px;
+}
+.main-f-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec-f-texts button {
+  background: linear-gradient(95.2deg, #b90160 2.23%, #2e3192 99.51%);
+  border: none;
+  width: 179px;
+  height: 53px;
+  border-radius: 7px;
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 23px;
+}
+.sec-f-texts {
+  display: flex;
+  flex-direction: column;
+  row-gap: 58px;
+}
+.t1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+.sec-f-img img {
+  width: 533px;
+  height: 686px;
+}
+.t2 {
+  font-size: 50px;
+  font-weight: 400;
+}
+.t2 span {
+  color: rgb(2, 0, 36);
+  color: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 116, 255, 1) 0%,
+    rgba(0, 56, 255, 1) 50%,
+    rgba(255, 67, 67, 1) 100%
+  );
+}
+.t3 {
+  font-size: 30px;
+  font-weight: 800;
+}
+.t4 {
+  color: rgba(115, 115, 115, 1);
+  font-weight: 300;
+}
+.card-text {
+  padding: 22px 10px;
+}
+.second-section {
+  margin-top: 50px;
+}
+.sec-s-text {
+  text-align: center;
+}
+
+.card1 {
+  width: 344px;
+  height: 414px;
+  box-shadow: 0px 0px 40px 0px rgba(184, 0, 95, 0.2);
+  border-radius: 9px;
+}
+.card1 img {
+  border-radius: 9px 9px 0px 0px;
+}
+.s-cards-div {
+  display: flex;
+  justify-content: center;
+  gap: 61px;
+  margin-top: 120px;
+}
+.fourth-section {
+  background: linear-gradient(
+    94.31deg,
+    rgba(212, 20, 90, 0.25) 0.96%,
+    rgba(46, 49, 146, 0.25) 104.83%
+  );
+  height: 360px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 300px;
+}
+.third-section{
+  display: none;
+}
+.all-f-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fr-main-div{
+  display: flex;
+  gap: 300px;
+  align-items: center;
+}
+.fr-card1 {
+  width: 436px;
+  height: 187px;
+  background-color: white;
+  position: relative;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+}
+.fr-card1 img{
+  position: absolute;
+  bottom: 115px;
+  left: 145px;
+}
+.fr-card1 p{
+  text-align: center;
+  margin-top: 63px;
+}
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+  }
+  .first-section {
+    margin-top: -100px;
+  }
+  .sec-f-texts p {
+    font-size: 40px;
+    width: 310px;
+  }
+  .sec-f-texts button {
+    width: 141px;
+    height: 42px;
+    font-size: 15px;
+  }
+  .sec-f-img img {
+    width: 368px;
+    height: 473px;
+  }
+  .second-section .s-cards-div {
+    display: none;
+  }
+  .third-section .s-cards-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card1 {
+    width: 594px;
+    height: 325px;
+  }
+  .fr-main-div{
+    display: flex;
+    flex-direction: column;
+  }
+}
+.all-div-footer{
+  display: flex;
+  justify-content: space-between;
+}
+footer{
+  padding: 23px 100px;
+  margin-top: 172px;
+}
+.all-div-footer ul i{
+  font-size: 33px;
+}
+.all-div-footer ul p{
+  margin-top: 10px;
+}
+.all-div-footer ul li{
+  font-size: 14px;
+  font-weight: 700;
+}
+@media (max-width: 410px) {
+  nav ul {
+    display: none;
+  }
+  .first-section {
+    margin-top: 38px;
+  }
+  .sec-f-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec-f-texts p {
+    font-size: 40px;
+    text-align: center;
+    width: 300px;
+  }
+  .sec-f-texts button {
+    width: 141px;
+    height: 42px;
+    font-size: 15px;
+  }
+  .sec-f-img img {
+    display: none;
+  }
+  .third-section .s-cards-div {
+    display: none;
+  }
+  .second-section .s-cards-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .card1 {
+    width: 344px;
+    height: 414px;
+  }
+}
